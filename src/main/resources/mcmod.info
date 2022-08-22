@@ -1,0 +1,17 @@
+[
+  {
+    "modid": "lang-replacer",
+    "name": "Language Replacer",
+    "description": "Add additional language translations",
+    "version": $version,
+    "credits": "",
+    "logoFile": "",
+    "mcversion": $mcversion,
+    "url": "https://github.com/Junzzzz/LangReplacer",
+    "updateUrl": "",
+    "authorList": ["Junzzzz"],
+    "parent":"",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
