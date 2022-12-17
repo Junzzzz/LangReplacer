@@ -28,6 +28,9 @@ public class LanguageReplacer implements IResourceManagerReloadListener {
         for (int i = 1; i < 21; i++) {
             localeMap.put("enchantment.level." + i, getEnchantmentLevelTranslation(i));
         }
+        for (int i = 1; i < 21; i++) {
+            localeMap.put("potion.potency." + i, getEnchantmentLevelTranslation(i));
+        }
         StringTranslate.replaceWith(localeMap);
     }
 
